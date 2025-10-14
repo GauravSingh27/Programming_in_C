@@ -1,0 +1,24 @@
+/*Experiment 4: Loops
+4.3.3 Write a Program for this pattern.
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15 */
+#include<stdio.h>
+int main()
+{   
+    printf("Name - Gaurav Singh\nSAP ID - 590027719\nCourse-BCA\nBatch-B6");
+    printf("\n--------------------------------\n");
+    
+	int i,j,n=1;
+	for(i=1 ; i <= 5 ; i++)
+	{
+		for(j=1 ; j <= i ; j++)
+		{
+			printf("%d ",n);
+			n++;
+		}
+		printf("\n");
+	}
+}
